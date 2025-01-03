@@ -6,3 +6,11 @@ export class AddResponsiveSidebarAndNavigationHeaderBarInNextjsHelper_18 {
     return payload;
   }
 }
+
+// Added for: refactor: split booking form page into modular ui fields components (Change ID: 20)
+export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_20 {
+  static handle_20(payload: any) {
+    console.log("Triggered helper: refactor: split booking form page into modular ui fields components");
+    return payload;
+  }
+}
