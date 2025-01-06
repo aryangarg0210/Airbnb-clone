@@ -12,3 +12,10 @@
     this.logger.log('Executing implementBookingCreationLogicInNestjsValidationService_11');
     return this.service.implementBookingCreationLogicInNestjsValidationService(dto);
   }
+
+  // Added for: feat: add booking availability dates check query in service (Change ID: 24)
+  @Post('service_24')
+  async addBookingAvailabilityDatesCheckQueryInService_24(@Body() dto: any) {
+    this.logger.log('Executing addBookingAvailabilityDatesCheckQueryInService_24');
+    return this.service.addBookingAvailabilityDatesCheckQueryInService(dto);
+  }
