@@ -6,3 +6,11 @@ export class CreateUseauthHooksInNextjsForSessionStateTrackingHelper_19 {
     return payload;
   }
 }
+
+// Added for: feat: add debounced searching hook filter for booking listings (Change ID: 35)
+export class AddDebouncedSearchingHookFilterForBookingListingsHelper_35 {
+  static handle_35(payload: any) {
+    console.log("Triggered helper: feat: add debounced searching hook filter for booking listings");
+    return payload;
+  }
+}
