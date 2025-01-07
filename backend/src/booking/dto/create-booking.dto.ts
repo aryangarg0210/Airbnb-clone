@@ -14,3 +14,11 @@ export class AddBookingAvailabilityDatesCheckQueryInServiceHelper_25 {
     return payload;
   }
 }
+
+// Added for: refactor: optimize booking calendar range verification logic (Change ID: 33)
+export class OptimizeBookingCalendarRangeVerificationLogicHelper_33 {
+  static handle_33(payload: any) {
+    console.log("Triggered helper: refactor: optimize booking calendar range verification logic");
+    return payload;
+  }
+}
