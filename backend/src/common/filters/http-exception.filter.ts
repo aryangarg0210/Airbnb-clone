@@ -6,3 +6,11 @@ export class CreateCustomRolesDecoratorAndJwtRolesGuardHelper_26 {
     return payload;
   }
 }
+
+// Added for: refactor: standardise express response interface structure in nestjs (Change ID: 36)
+export class StandardiseExpressResponseInterfaceStructureInNestjsHelper_36 {
+  static handle_36(payload: any) {
+    console.log("Triggered helper: refactor: standardise express response interface structure in nestjs");
+    return payload;
+  }
+}
