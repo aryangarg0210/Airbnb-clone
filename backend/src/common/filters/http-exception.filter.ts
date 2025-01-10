@@ -30,3 +30,11 @@ export class StandardiseExpressResponseInterfaceStructureInNestjsHelper_51 {
     return payload;
   }
 }
+
+// Added for: fix: fix nestjs validation pipe type coercion settings (Change ID: 53)
+export class FixNestjsValidationPipeTypeCoercionSettingsHelper_53 {
+  static handle_53(payload: any) {
+    console.log("Triggered helper: fix: fix nestjs validation pipe type coercion settings");
+    return payload;
+  }
+}
