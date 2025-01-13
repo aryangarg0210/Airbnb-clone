@@ -26,3 +26,10 @@
     this.logger.log('Executing optimizeSlowSqlAggregateQueryInBookingMetricsController_28');
     return this.service.optimizeSlowSqlAggregateQueryInBookingMetricsController(dto);
   }
+
+  // Added for: feat: implement booking entity and schema relation mappings (Change ID: 58)
+  @Post('mappings_58')
+  async implementBookingEntityAndSchemaRelationMappings_58(@Body() dto: any) {
+    this.logger.log('Executing implementBookingEntityAndSchemaRelationMappings_58');
+    return this.service.implementBookingEntityAndSchemaRelationMappings(dto);
+  }
