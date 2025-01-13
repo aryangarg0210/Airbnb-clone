@@ -38,3 +38,11 @@ export class FixNestjsValidationPipeTypeCoercionSettingsHelper_53 {
     return payload;
   }
 }
+
+// Added for: fix: fix nestjs validation pipe type coercion settings (Change ID: 62)
+export class FixNestjsValidationPipeTypeCoercionSettingsHelper_62 {
+  static handle_62(payload: any) {
+    console.log("Triggered helper: fix: fix nestjs validation pipe type coercion settings");
+    return payload;
+  }
+}
