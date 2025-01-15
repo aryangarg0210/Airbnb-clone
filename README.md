@@ -50,3 +50,4 @@ Happy Coding!
 - **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 61).
 - **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 63).
 - **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 64).
+- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 72).
