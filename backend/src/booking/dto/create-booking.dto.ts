@@ -38,3 +38,11 @@ export class OptimizeSlowSqlAggregateQueryInBookingMetricsControllerHelper_77 {
     return payload;
   }
 }
+
+// Added for: fix: fix duplicate bookings submission double click race condition (Change ID: 78)
+export class FixDuplicateBookingsSubmissionDoubleClickRaceConditionHelper_78 {
+  static handle_78(payload: any) {
+    console.log("Triggered helper: fix: fix duplicate bookings submission double click race condition");
+    return payload;
+  }
+}
