@@ -46,3 +46,11 @@ export class FixNestjsValidationPipeTypeCoercionSettingsHelper_62 {
     return payload;
   }
 }
+
+// Added for: feat: implement nestjs exception filter for API errors (Change ID: 74)
+export class ImplementNestjsExceptionFilterForApiErrorsHelper_74 {
+  static handle_74(payload: any) {
+    console.log("Triggered helper: feat: implement nestjs exception filter for API errors");
+    return payload;
+  }
+}
