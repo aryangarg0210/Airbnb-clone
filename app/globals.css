@@ -70,3 +70,11 @@ body,
   gap: 16px;
   align-items: center;
 }
+
+/* Added for: style: apply backdrop blur glassmorphism style to login modal (Change ID: 82) */
+.apply-backdrop-blur-82-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
