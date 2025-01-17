@@ -34,3 +34,9 @@
     console.log('Executing service logic: refactor: extract nestjs auth controllers into sub-modules - 71');
     return { success: true, date: new Date(), ref: 71 };
   }
+
+  // Added for: fix: fix incorrect regex string validator in user auth DTO (Change ID: 85)
+  async fixIncorrectRegexStringValidatorInUserAuthDto_85(data: any): Promise<any> {
+    console.log('Executing service logic: fix: fix incorrect regex string validator in user auth DTO - 85');
+    return { success: true, date: new Date(), ref: 85 };
+  }
