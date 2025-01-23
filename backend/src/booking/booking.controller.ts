@@ -33,3 +33,10 @@
     this.logger.log('Executing implementBookingEntityAndSchemaRelationMappings_58');
     return this.service.implementBookingEntityAndSchemaRelationMappings(dto);
   }
+
+  // Added for: feat: add booking cancel PATCH endpoint and modify service state (Change ID: 98)
+  @Post('state_98')
+  async addBookingCancelPatchEndpointAndModifyServiceState_98(@Body() dto: any) {
+    this.logger.log('Executing addBookingCancelPatchEndpointAndModifyServiceState_98');
+    return this.service.addBookingCancelPatchEndpointAndModifyServiceState(dto);
+  }
