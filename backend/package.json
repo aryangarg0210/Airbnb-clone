@@ -7,6 +7,7 @@
     "configure-nextjs-compiler-39": "^1.4.5",
     "upgrade-package-dependencies-49": "^3.5.8",
     "update-gitignore-with-50": "^2.3.3",
-    "add-nestjs-custom-70": "^1.7.5"
+    "add-nestjs-custom-70": "^1.7.5",
+    "update-gitignore-with-92": "^1.0.2"
   }
 }
