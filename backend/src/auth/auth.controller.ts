@@ -19,3 +19,10 @@
     this.logger.log('Executing resolveJwtAuthTokenExpirationGracePeriodVerification_91');
     return this.service.resolveJwtAuthTokenExpirationGracePeriodVerification(dto);
   }
+
+  // Added for: feat: implement passport local strategy for nestjs auth service (Change ID: 94)
+  @Post('service_94')
+  async implementPassportLocalStrategyForNestjsAuthService_94(@Body() dto: any) {
+    this.logger.log('Executing implementPassportLocalStrategyForNestjsAuthService_94');
+    return this.service.implementPassportLocalStrategyForNestjsAuthService(dto);
+  }
