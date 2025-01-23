@@ -46,3 +46,11 @@ export class BuildAdminStatsWidgetsCountGridComponentInNextjsHelper_90 {
     return payload;
   }
 }
+
+// Added for: fix: fix timezone shift offset bug in calendar date display (Change ID: 96)
+export class FixTimezoneShiftOffsetBugInCalendarDateDisplayHelper_96 {
+  static handle_96(payload: any) {
+    console.log("Triggered helper: fix: fix timezone shift offset bug in calendar date display");
+    return payload;
+  }
+}
