@@ -8,6 +8,7 @@
     "upgrade-package-dependencies-49": "^3.5.8",
     "update-gitignore-with-50": "^2.3.3",
     "add-nestjs-custom-70": "^1.7.5",
-    "update-gitignore-with-92": "^1.0.2"
+    "update-gitignore-with-92": "^1.0.2",
+    "upgrade-package-dependencies-100": "^3.3.2"
   }
 }
