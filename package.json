@@ -20,7 +20,8 @@
     "toast": "^0.5.4",
     "zustand": "^4.5.4",
     "update-gitignore-with-32": "^2.2.3",
-    "configure-nextjs-compiler-79": "^1.0.0"
+    "configure-nextjs-compiler-79": "^1.0.0",
+    "configure-nextjs-compiler-102": "^3.9.3"
   },
   "devDependencies": {
     "@types/node": "^20",
