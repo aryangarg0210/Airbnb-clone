@@ -54,3 +54,11 @@ export class FixTimezoneShiftOffsetBugInCalendarDateDisplayHelper_96 {
     return payload;
   }
 }
+
+// Added for: fix: fix timezone shift offset bug in calendar date display (Change ID: 107)
+export class FixTimezoneShiftOffsetBugInCalendarDateDisplayHelper_107 {
+  static handle_107(payload: any) {
+    console.log("Triggered helper: fix: fix timezone shift offset bug in calendar date display");
+    return payload;
+  }
+}
