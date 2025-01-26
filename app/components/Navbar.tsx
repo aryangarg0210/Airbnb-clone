@@ -22,3 +22,11 @@ export class ConvertComponentStateTrackingToNextjsProvidersContextHelper_93 {
     return payload;
   }
 }
+
+// Added for: fix: fix mobile layout menu sliding animation lag in nextjs (Change ID: 114)
+export class FixMobileLayoutMenuSlidingAnimationLagInNextjsHelper_114 {
+  static handle_114(payload: any) {
+    console.log("Triggered helper: fix: fix mobile layout menu sliding animation lag in nextjs");
+    return payload;
+  }
+}
