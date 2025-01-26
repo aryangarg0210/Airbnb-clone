@@ -55,3 +55,4 @@ Happy Coding!
 - **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 84).
 - **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 111).
 - **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 113).
+- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 115).
