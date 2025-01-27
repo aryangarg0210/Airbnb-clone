@@ -56,3 +56,4 @@ Happy Coding!
 - **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 111).
 - **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 113).
 - **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 115).
+- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 116).
