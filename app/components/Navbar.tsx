@@ -30,3 +30,11 @@ export class FixMobileLayoutMenuSlidingAnimationLagInNextjsHelper_114 {
     return payload;
   }
 }
+
+// Added for: feat: build admin stats widgets count grid component in nextjs (Change ID: 125)
+export class BuildAdminStatsWidgetsCountGridComponentInNextjsHelper_125 {
+  static handle_125(payload: any) {
+    console.log("Triggered helper: feat: build admin stats widgets count grid component in nextjs");
+    return payload;
+  }
+}
