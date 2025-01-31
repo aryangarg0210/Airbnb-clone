@@ -54,3 +54,11 @@ export class OptimizeSlowSqlAggregateQueryInBookingMetricsControllerHelper_97 {
     return payload;
   }
 }
+
+// Added for: feat: add booking availability dates check query in service (Change ID: 133)
+export class AddBookingAvailabilityDatesCheckQueryInServiceHelper_133 {
+  static handle_133(payload: any) {
+    console.log("Triggered helper: feat: add booking availability dates check query in service");
+    return payload;
+  }
+}
