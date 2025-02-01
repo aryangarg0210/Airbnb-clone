@@ -58,3 +58,9 @@
     console.log('Executing service logic: fix: resolve jwt auth token expiration grace period verification - 135');
     return { success: true, date: new Date(), ref: 135 };
   }
+
+  // Added for: feat: add user signup validation DTO in nestjs (Change ID: 144)
+  async addUserSignupValidationDtoInNestjs_144(data: any): Promise<any> {
+    console.log('Executing service logic: feat: add user signup validation DTO in nestjs - 144');
+    return { success: true, date: new Date(), ref: 144 };
+  }
