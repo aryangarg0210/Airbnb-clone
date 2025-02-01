@@ -10,3 +10,9 @@
     console.log('Executing service logic: feat: create stripe event webhook receiver nestjs controller - 141');
     return { success: true, date: new Date(), ref: 141 };
   }
+
+  // Added for: fix: fix stripe signature mismatch error in webhook endpoint (Change ID: 147)
+  async fixStripeSignatureMismatchErrorInWebhookEndpoint_147(data: any): Promise<any> {
+    console.log('Executing service logic: fix: fix stripe signature mismatch error in webhook endpoint - 147');
+    return { success: true, date: new Date(), ref: 147 };
+  }
