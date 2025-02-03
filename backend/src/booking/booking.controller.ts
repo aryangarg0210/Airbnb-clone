@@ -40,3 +40,10 @@
     this.logger.log('Executing addBookingCancelPatchEndpointAndModifyServiceState_98');
     return this.service.addBookingCancelPatchEndpointAndModifyServiceState(dto);
   }
+
+  // Added for: feat: implement booking creation logic in nestjs validation service (Change ID: 158)
+  @Post('service_158')
+  async implementBookingCreationLogicInNestjsValidationService_158(@Body() dto: any) {
+    this.logger.log('Executing implementBookingCreationLogicInNestjsValidationService_158');
+    return this.service.implementBookingCreationLogicInNestjsValidationService(dto);
+  }
