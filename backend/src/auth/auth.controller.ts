@@ -33,3 +33,10 @@
     this.logger.log('Executing createUserDatabaseEntityAndSchemaModelDefinition_164');
     return this.service.createUserDatabaseEntityAndSchemaModelDefinition(dto);
   }
+
+  // Added for: fix: resolve nestjs circular dependency user module imports (Change ID: 166)
+  @Post('imports_166')
+  async resolveNestjsCircularDependencyUserModuleImports_166(@Body() dto: any) {
+    this.logger.log('Executing resolveNestjsCircularDependencyUserModuleImports_166');
+    return this.service.resolveNestjsCircularDependencyUserModuleImports(dto);
+  }
