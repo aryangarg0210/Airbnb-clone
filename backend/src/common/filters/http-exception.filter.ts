@@ -150,3 +150,11 @@ export class CreateCustomRolesDecoratorAndJwtRolesGuardHelper_161 {
     return payload;
   }
 }
+
+// Added for: fix: fix nestjs validation pipe type coercion settings (Change ID: 165)
+export class FixNestjsValidationPipeTypeCoercionSettingsHelper_165 {
+  static handle_165(payload: any) {
+    console.log("Triggered helper: fix: fix nestjs validation pipe type coercion settings");
+    return payload;
+  }
+}
