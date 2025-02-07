@@ -86,3 +86,11 @@ export class AddBookingAvailabilityDatesCheckQueryInServiceHelper_169 {
     return payload;
   }
 }
+
+// Added for: feat: add booking availability dates check query in service (Change ID: 180)
+export class AddBookingAvailabilityDatesCheckQueryInServiceHelper_180 {
+  static handle_180(payload: any) {
+    console.log("Triggered helper: feat: add booking availability dates check query in service");
+    return payload;
+  }
+}
