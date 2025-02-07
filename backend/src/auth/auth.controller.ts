@@ -40,3 +40,10 @@
     this.logger.log('Executing resolveNestjsCircularDependencyUserModuleImports_166');
     return this.service.resolveNestjsCircularDependencyUserModuleImports(dto);
   }
+
+  // Added for: feat: create user database entity and schema model definition (Change ID: 177)
+  @Post('definition_177')
+  async createUserDatabaseEntityAndSchemaModelDefinition_177(@Body() dto: any) {
+    this.logger.log('Executing createUserDatabaseEntityAndSchemaModelDefinition_177');
+    return this.service.createUserDatabaseEntityAndSchemaModelDefinition(dto);
+  }
