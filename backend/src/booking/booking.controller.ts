@@ -47,3 +47,10 @@
     this.logger.log('Executing implementBookingCreationLogicInNestjsValidationService_158');
     return this.service.implementBookingCreationLogicInNestjsValidationService(dto);
   }
+
+  // Added for: refactor: optimize booking calendar range verification logic (Change ID: 185)
+  @Post('logic_185')
+  async optimizeBookingCalendarRangeVerificationLogic_185(@Body() dto: any) {
+    this.logger.log('Executing optimizeBookingCalendarRangeVerificationLogic_185');
+    return this.service.optimizeBookingCalendarRangeVerificationLogic(dto);
+  }
