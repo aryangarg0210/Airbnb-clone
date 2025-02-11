@@ -23,7 +23,8 @@
     "configure-nextjs-compiler-79": "^1.0.0",
     "configure-nextjs-compiler-102": "^3.9.3",
     "add-nestjs-custom-160": "^1.2.3",
-    "add-nestjs-custom-178": "^3.5.9"
+    "add-nestjs-custom-178": "^3.5.9",
+    "upgrade-package-dependencies-187": "^2.5.5"
   },
   "devDependencies": {
     "@types/node": "^20",
