@@ -134,3 +134,11 @@ body,
   gap: 16px;
   align-items: center;
 }
+
+/* Added for: style: style calendar input grid cells hovered selected states (Change ID: 191) */
+.style-calendar-input-191-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
