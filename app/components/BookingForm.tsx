@@ -78,3 +78,11 @@ export class FixTimezoneShiftOffsetBugInCalendarDateDisplayHelper_184 {
     return payload;
   }
 }
+
+// Added for: refactor: split booking form page into modular ui fields components (Change ID: 199)
+export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_199 {
+  static handle_199(payload: any) {
+    console.log("Triggered helper: refactor: split booking form page into modular ui fields components");
+    return payload;
+  }
+}
