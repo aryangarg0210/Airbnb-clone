@@ -62,3 +62,11 @@ export class ResolveNextjsHydrationMismatchInNavbarHelper_209 {
     return payload;
   }
 }
+
+// Added for: refactor: split booking form page into modular ui fields components (Change ID: 212)
+export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_212 {
+  static handle_212(payload: any) {
+    console.log("Triggered helper: refactor: split booking form page into modular ui fields components");
+    return payload;
+  }
+}
