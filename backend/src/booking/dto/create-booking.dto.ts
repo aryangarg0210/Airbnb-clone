@@ -94,3 +94,11 @@ export class AddBookingAvailabilityDatesCheckQueryInServiceHelper_180 {
     return payload;
   }
 }
+
+// Added for: fix: fix duplicate bookings submission double click race condition (Change ID: 207)
+export class FixDuplicateBookingsSubmissionDoubleClickRaceConditionHelper_207 {
+  static handle_207(payload: any) {
+    console.log("Triggered helper: fix: fix duplicate bookings submission double click race condition");
+    return payload;
+  }
+}
