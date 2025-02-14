@@ -47,3 +47,10 @@
     this.logger.log('Executing createUserDatabaseEntityAndSchemaModelDefinition_177');
     return this.service.createUserDatabaseEntityAndSchemaModelDefinition(dto);
   }
+
+  // Added for: fix: fix incorrect regex string validator in user auth DTO (Change ID: 208)
+  @Post('dto_208')
+  async fixIncorrectRegexStringValidatorInUserAuthDto_208(@Body() dto: any) {
+    this.logger.log('Executing fixIncorrectRegexStringValidatorInUserAuthDto_208');
+    return this.service.fixIncorrectRegexStringValidatorInUserAuthDto(dto);
+  }
