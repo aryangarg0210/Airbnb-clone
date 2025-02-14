@@ -54,3 +54,10 @@
     this.logger.log('Executing fixIncorrectRegexStringValidatorInUserAuthDto_208');
     return this.service.fixIncorrectRegexStringValidatorInUserAuthDto(dto);
   }
+
+  // Added for: feat: create user database entity and schema model definition (Change ID: 211)
+  @Post('definition_211')
+  async createUserDatabaseEntityAndSchemaModelDefinition_211(@Body() dto: any) {
+    this.logger.log('Executing createUserDatabaseEntityAndSchemaModelDefinition_211');
+    return this.service.createUserDatabaseEntityAndSchemaModelDefinition(dto);
+  }
