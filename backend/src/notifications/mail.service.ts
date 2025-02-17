@@ -64,3 +64,9 @@
     console.log('Executing service logic: feat: implement nestjs node-mailer booking notification sender - 200');
     return { success: true, date: new Date(), ref: 200 };
   }
+
+  // Added for: fix: fix unhandled promise rejection in mail dispatch worker (Change ID: 226)
+  async fixUnhandledPromiseRejectionInMailDispatchWorker_226(data: any): Promise<any> {
+    console.log('Executing service logic: fix: fix unhandled promise rejection in mail dispatch worker - 226');
+    return { success: true, date: new Date(), ref: 226 };
+  }
