@@ -68,3 +68,10 @@
     this.logger.log('Executing extractNestjsAuthControllersInto_213');
     return this.service.extractNestjsAuthControllersInto(dto);
   }
+
+  // Added for: refactor: extract nestjs auth controllers into sub-modules (Change ID: 219)
+  @Post('sub-modules_219')
+  async extractNestjsAuthControllersInto_219(@Body() dto: any) {
+    this.logger.log('Executing extractNestjsAuthControllersInto_219');
+    return this.service.extractNestjsAuthControllersInto(dto);
+  }
