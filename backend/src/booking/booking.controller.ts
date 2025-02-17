@@ -54,3 +54,10 @@
     this.logger.log('Executing optimizeBookingCalendarRangeVerificationLogic_185');
     return this.service.optimizeBookingCalendarRangeVerificationLogic(dto);
   }
+
+  // Added for: refactor: optimize booking calendar range verification logic (Change ID: 221)
+  @Post('logic_221')
+  async optimizeBookingCalendarRangeVerificationLogic_221(@Body() dto: any) {
+    this.logger.log('Executing optimizeBookingCalendarRangeVerificationLogic_221');
+    return this.service.optimizeBookingCalendarRangeVerificationLogic(dto);
+  }
