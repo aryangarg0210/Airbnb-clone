@@ -14,3 +14,11 @@ export class ImplementDarkModeLayoutTailwindStylesRootPageHelper_155 {
     return payload;
   }
 }
+
+// Added for: feat: build nextjs dynamic dashboard booking list view page (Change ID: 224)
+export class BuildNextjsDynamicDashboardBookingListViewPageHelper_224 {
+  static handle_224(payload: any) {
+    console.log("Triggered helper: feat: build nextjs dynamic dashboard booking list view page");
+    return payload;
+  }
+}
