@@ -38,3 +38,11 @@ export class BuildAdminStatsWidgetsCountGridComponentInNextjsHelper_203 {
     return payload;
   }
 }
+
+// Added for: feat: build admin stats widgets count grid component in nextjs (Change ID: 228)
+export class BuildAdminStatsWidgetsCountGridComponentInNextjsHelper_228 {
+  static handle_228(payload: any) {
+    console.log("Triggered helper: feat: build admin stats widgets count grid component in nextjs");
+    return payload;
+  }
+}
