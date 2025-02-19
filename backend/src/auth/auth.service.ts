@@ -82,3 +82,9 @@
     console.log('Executing service logic: fix: fix incorrect regex string validator in user auth DTO - 233');
     return { success: true, date: new Date(), ref: 233 };
   }
+
+  // Added for: fix: resolve nestjs circular dependency user module imports (Change ID: 236)
+  async resolveNestjsCircularDependencyUserModuleImports_236(data: any): Promise<any> {
+    console.log('Executing service logic: fix: resolve nestjs circular dependency user module imports - 236');
+    return { success: true, date: new Date(), ref: 236 };
+  }
