@@ -61,3 +61,10 @@
     this.logger.log('Executing optimizeBookingCalendarRangeVerificationLogic_221');
     return this.service.optimizeBookingCalendarRangeVerificationLogic(dto);
   }
+
+  // Added for: fix: fix duplicate bookings submission double click race condition (Change ID: 255)
+  @Post('condition_255')
+  async fixDuplicateBookingsSubmissionDoubleClickRaceCondition_255(@Body() dto: any) {
+    this.logger.log('Executing fixDuplicateBookingsSubmissionDoubleClickRaceCondition_255');
+    return this.service.fixDuplicateBookingsSubmissionDoubleClickRaceCondition(dto);
+  }
