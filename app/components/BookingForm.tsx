@@ -110,3 +110,11 @@ export class AddResponsiveSidebarAndNavigationHeaderBarInNextjsHelper_243 {
     return payload;
   }
 }
+
+// Added for: fix: fix timezone shift offset bug in calendar date display (Change ID: 262)
+export class FixTimezoneShiftOffsetBugInCalendarDateDisplayHelper_262 {
+  static handle_262(payload: any) {
+    console.log("Triggered helper: fix: fix timezone shift offset bug in calendar date display");
+    return payload;
+  }
+}
