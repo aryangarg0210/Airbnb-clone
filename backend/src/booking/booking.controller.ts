@@ -68,3 +68,10 @@
     this.logger.log('Executing fixDuplicateBookingsSubmissionDoubleClickRaceCondition_255');
     return this.service.fixDuplicateBookingsSubmissionDoubleClickRaceCondition(dto);
   }
+
+  // Added for: feat: add get bookings by user id endpoint in controller (Change ID: 277)
+  @Post('controller_277')
+  async addGetBookingsByUserIdEndpointInController_277(@Body() dto: any) {
+    this.logger.log('Executing addGetBookingsByUserIdEndpointInController_277');
+    return this.service.addGetBookingsByUserIdEndpointInController(dto);
+  }
