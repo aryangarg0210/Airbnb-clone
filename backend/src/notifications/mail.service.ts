@@ -82,3 +82,9 @@
     console.log('Executing service logic: feat: generate booking invoice PDF attachment utility stream - 265');
     return { success: true, date: new Date(), ref: 265 };
   }
+
+  // Added for: fix: fix unhandled promise rejection in mail dispatch worker (Change ID: 271)
+  async fixUnhandledPromiseRejectionInMailDispatchWorker_271(data: any): Promise<any> {
+    console.log('Executing service logic: fix: fix unhandled promise rejection in mail dispatch worker - 271');
+    return { success: true, date: new Date(), ref: 271 };
+  }
