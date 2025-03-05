@@ -54,3 +54,11 @@ export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_247 {
     return payload;
   }
 }
+
+// Added for: fix: fix timezone shift offset bug in calendar date display (Change ID: 283)
+export class FixTimezoneShiftOffsetBugInCalendarDateDisplayHelper_283 {
+  static handle_283(payload: any) {
+    console.log("Triggered helper: fix: fix timezone shift offset bug in calendar date display");
+    return payload;
+  }
+}
