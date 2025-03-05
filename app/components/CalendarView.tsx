@@ -62,3 +62,11 @@ export class FixTimezoneShiftOffsetBugInCalendarDateDisplayHelper_283 {
     return payload;
   }
 }
+
+// Added for: refactor: convert component state tracking to nextjs providers context (Change ID: 284)
+export class ConvertComponentStateTrackingToNextjsProvidersContextHelper_284 {
+  static handle_284(payload: any) {
+    console.log("Triggered helper: refactor: convert component state tracking to nextjs providers context");
+    return payload;
+  }
+}
