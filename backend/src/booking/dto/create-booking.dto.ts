@@ -142,3 +142,11 @@ export class ImplementBookingCreationLogicInNestjsValidationServiceHelper_282 {
     return payload;
   }
 }
+
+// Added for: feat: add booking cancel PATCH endpoint and modify service state (Change ID: 288)
+export class AddBookingCancelPatchEndpointAndModifyServiceStateHelper_288 {
+  static handle_288(payload: any) {
+    console.log("Triggered helper: feat: add booking cancel PATCH endpoint and modify service state");
+    return payload;
+  }
+}
