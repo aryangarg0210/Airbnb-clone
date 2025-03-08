@@ -110,3 +110,11 @@ export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_302 {
     return payload;
   }
 }
+
+// Added for: refactor: split booking form page into modular ui fields components (Change ID: 305)
+export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_305 {
+  static handle_305(payload: any) {
+    console.log("Triggered helper: refactor: split booking form page into modular ui fields components");
+    return payload;
+  }
+}
