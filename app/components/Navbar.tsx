@@ -118,3 +118,11 @@ export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_305 {
     return payload;
   }
 }
+
+// Added for: feat: add responsive sidebar and navigation header bar in nextjs (Change ID: 311)
+export class AddResponsiveSidebarAndNavigationHeaderBarInNextjsHelper_311 {
+  static handle_311(payload: any) {
+    console.log("Triggered helper: feat: add responsive sidebar and navigation header bar in nextjs");
+    return payload;
+  }
+}
