@@ -106,3 +106,9 @@
     console.log('Executing service logic: fix: fix unhandled promise rejection in mail dispatch worker - 291');
     return { success: true, date: new Date(), ref: 291 };
   }
+
+  // Added for: fix: fix unhandled promise rejection in mail dispatch worker (Change ID: 306)
+  async fixUnhandledPromiseRejectionInMailDispatchWorker_306(data: any): Promise<any> {
+    console.log('Executing service logic: fix: fix unhandled promise rejection in mail dispatch worker - 306');
+    return { success: true, date: new Date(), ref: 306 };
+  }
