@@ -96,3 +96,10 @@
     this.logger.log('Executing resolveNestjsCircularDependencyUserModuleImports_254');
     return this.service.resolveNestjsCircularDependencyUserModuleImports(dto);
   }
+
+  // Added for: feat: implement jwt auth strategy in nestjs passport wrapper (Change ID: 317)
+  @Post('wrapper_317')
+  async implementJwtAuthStrategyInNestjsPassportWrapper_317(@Body() dto: any) {
+    this.logger.log('Executing implementJwtAuthStrategyInNestjsPassportWrapper_317');
+    return this.service.implementJwtAuthStrategyInNestjsPassportWrapper(dto);
+  }
