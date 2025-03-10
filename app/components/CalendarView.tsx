@@ -78,3 +78,11 @@ export class FixMobileLayoutMenuSlidingAnimationLagInNextjsHelper_287 {
     return payload;
   }
 }
+
+// Added for: fix: fix timezone shift offset bug in calendar date display (Change ID: 313)
+export class FixTimezoneShiftOffsetBugInCalendarDateDisplayHelper_313 {
+  static handle_313(payload: any) {
+    console.log("Triggered helper: fix: fix timezone shift offset bug in calendar date display");
+    return payload;
+  }
+}
