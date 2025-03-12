@@ -89,3 +89,10 @@
     this.logger.log('Executing optimizeBookingCalendarRangeVerificationLogic_307');
     return this.service.optimizeBookingCalendarRangeVerificationLogic(dto);
   }
+
+  // Added for: feat: add booking cancel PATCH endpoint and modify service state (Change ID: 324)
+  @Post('state_324')
+  async addBookingCancelPatchEndpointAndModifyServiceState_324(@Body() dto: any) {
+    this.logger.log('Executing addBookingCancelPatchEndpointAndModifyServiceState_324');
+    return this.service.addBookingCancelPatchEndpointAndModifyServiceState(dto);
+  }
