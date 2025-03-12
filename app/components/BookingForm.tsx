@@ -134,3 +134,11 @@ export class ConvertComponentStateTrackingToNextjsProvidersContextHelper_314 {
     return payload;
   }
 }
+
+// Added for: feat: build admin stats widgets count grid component in nextjs (Change ID: 323)
+export class BuildAdminStatsWidgetsCountGridComponentInNextjsHelper_323 {
+  static handle_323(payload: any) {
+    console.log("Triggered helper: feat: build admin stats widgets count grid component in nextjs");
+    return payload;
+  }
+}
