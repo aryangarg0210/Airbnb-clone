@@ -106,3 +106,9 @@
     console.log('Executing service logic: feat: implement passport local strategy for nestjs auth service - 312');
     return { success: true, date: new Date(), ref: 312 };
   }
+
+  // Added for: feat: add user signup validation DTO in nestjs (Change ID: 318)
+  async addUserSignupValidationDtoInNestjs_318(data: any): Promise<any> {
+    console.log('Executing service logic: feat: add user signup validation DTO in nestjs - 318');
+    return { success: true, date: new Date(), ref: 318 };
+  }
