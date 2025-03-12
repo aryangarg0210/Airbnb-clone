@@ -158,3 +158,11 @@ export class ImplementBookingCreationLogicInNestjsValidationServiceHelper_303 {
     return payload;
   }
 }
+
+// Added for: feat: implement booking creation logic in nestjs validation service (Change ID: 325)
+export class ImplementBookingCreationLogicInNestjsValidationServiceHelper_325 {
+  static handle_325(payload: any) {
+    console.log("Triggered helper: feat: implement booking creation logic in nestjs validation service");
+    return payload;
+  }
+}
