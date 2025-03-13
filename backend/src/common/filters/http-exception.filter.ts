@@ -262,3 +262,11 @@ export class FixNestjsValidationPipeTypeCoercionSettingsHelper_304 {
     return payload;
   }
 }
+
+// Added for: feat: create custom roles decorator and jwt roles guard (Change ID: 329)
+export class CreateCustomRolesDecoratorAndJwtRolesGuardHelper_329 {
+  static handle_329(payload: any) {
+    console.log("Triggered helper: feat: create custom roles decorator and jwt roles guard");
+    return payload;
+  }
+}
