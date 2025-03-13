@@ -22,3 +22,11 @@ export class BuildNextjsDynamicDashboardBookingListViewPageHelper_290 {
     return payload;
   }
 }
+
+// Added for: feat: implement dark mode layout tailwind styles root page (Change ID: 327)
+export class ImplementDarkModeLayoutTailwindStylesRootPageHelper_327 {
+  static handle_327(payload: any) {
+    console.log("Triggered helper: feat: implement dark mode layout tailwind styles root page");
+    return payload;
+  }
+}
