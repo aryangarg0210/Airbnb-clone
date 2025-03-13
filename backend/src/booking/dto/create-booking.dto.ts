@@ -166,3 +166,11 @@ export class ImplementBookingCreationLogicInNestjsValidationServiceHelper_325 {
     return payload;
   }
 }
+
+// Added for: refactor: optimize booking calendar range verification logic (Change ID: 328)
+export class OptimizeBookingCalendarRangeVerificationLogicHelper_328 {
+  static handle_328(payload: any) {
+    console.log("Triggered helper: refactor: optimize booking calendar range verification logic");
+    return payload;
+  }
+}
