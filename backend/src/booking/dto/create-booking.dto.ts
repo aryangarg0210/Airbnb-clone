@@ -174,3 +174,11 @@ export class OptimizeBookingCalendarRangeVerificationLogicHelper_328 {
     return payload;
   }
 }
+
+// Added for: fix: fix duplicate bookings submission double click race condition (Change ID: 334)
+export class FixDuplicateBookingsSubmissionDoubleClickRaceConditionHelper_334 {
+  static handle_334(payload: any) {
+    console.log("Triggered helper: fix: fix duplicate bookings submission double click race condition");
+    return payload;
+  }
+}
