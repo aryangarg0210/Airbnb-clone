@@ -158,3 +158,11 @@ export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_332 {
     return payload;
   }
 }
+
+// Added for: refactor: convert component state tracking to nextjs providers context (Change ID: 335)
+export class ConvertComponentStateTrackingToNextjsProvidersContextHelper_335 {
+  static handle_335(payload: any) {
+    console.log("Triggered helper: refactor: convert component state tracking to nextjs providers context");
+    return payload;
+  }
+}
