@@ -70,3 +70,4 @@ Happy Coding!
 - **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 259).
 - **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 316).
 - **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 343).
+- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 345).
