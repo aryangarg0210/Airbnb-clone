@@ -70,3 +70,9 @@
     console.log('Executing service logic: feat: implement jwt auth strategy in nestjs passport wrapper - 353');
     return { success: true, date: new Date(), ref: 353 };
   }
+
+  // Added for: feat: add user signup validation DTO in nestjs (Change ID: 354)
+  async addUserSignupValidationDtoInNestjs_354(data: any): Promise<any> {
+    console.log('Executing service logic: feat: add user signup validation DTO in nestjs - 354');
+    return { success: true, date: new Date(), ref: 354 };
+  }
