@@ -182,3 +182,11 @@ export class FixDuplicateBookingsSubmissionDoubleClickRaceConditionHelper_334 {
     return payload;
   }
 }
+
+// Added for: fix: fix duplicate bookings submission double click race condition (Change ID: 377)
+export class FixDuplicateBookingsSubmissionDoubleClickRaceConditionHelper_377 {
+  static handle_377(payload: any) {
+    console.log("Triggered helper: fix: fix duplicate bookings submission double click race condition");
+    return payload;
+  }
+}
