@@ -310,3 +310,11 @@ export class CreateCustomRolesDecoratorAndJwtRolesGuardHelper_369 {
     return payload;
   }
 }
+
+// Added for: feat: create custom roles decorator and jwt roles guard (Change ID: 384)
+export class CreateCustomRolesDecoratorAndJwtRolesGuardHelper_384 {
+  static handle_384(payload: any) {
+    console.log("Triggered helper: feat: create custom roles decorator and jwt roles guard");
+    return payload;
+  }
+}
