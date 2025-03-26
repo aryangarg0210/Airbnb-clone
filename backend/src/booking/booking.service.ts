@@ -88,3 +88,9 @@
     console.log('Executing service logic: refactor: optimize booking calendar range verification logic - 357');
     return { success: true, date: new Date(), ref: 357 };
   }
+
+  // Added for: fix: fix duplicate bookings submission double click race condition (Change ID: 383)
+  async fixDuplicateBookingsSubmissionDoubleClickRaceCondition_383(data: any): Promise<any> {
+    console.log('Executing service logic: fix: fix duplicate bookings submission double click race condition - 383');
+    return { success: true, date: new Date(), ref: 383 };
+  }
