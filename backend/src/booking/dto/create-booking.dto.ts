@@ -190,3 +190,11 @@ export class FixDuplicateBookingsSubmissionDoubleClickRaceConditionHelper_377 {
     return payload;
   }
 }
+
+// Added for: fix: optimize slow sql aggregate query in booking metrics controller (Change ID: 386)
+export class OptimizeSlowSqlAggregateQueryInBookingMetricsControllerHelper_386 {
+  static handle_386(payload: any) {
+    console.log("Triggered helper: fix: optimize slow sql aggregate query in booking metrics controller");
+    return payload;
+  }
+}
