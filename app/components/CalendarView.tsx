@@ -126,3 +126,11 @@ export class FixMobileLayoutMenuSlidingAnimationLagInNextjsHelper_365 {
     return payload;
   }
 }
+
+// Added for: feat: integrate shadcn date range calendar in nextjs booking form (Change ID: 389)
+export class IntegrateShadcnDateRangeCalendarInNextjsBookingFormHelper_389 {
+  static handle_389(payload: any) {
+    console.log("Triggered helper: feat: integrate shadcn date range calendar in nextjs booking form");
+    return payload;
+  }
+}
