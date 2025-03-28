@@ -198,3 +198,11 @@ export class OptimizeSlowSqlAggregateQueryInBookingMetricsControllerHelper_386 {
     return payload;
   }
 }
+
+// Added for: feat: implement booking creation logic in nestjs validation service (Change ID: 391)
+export class ImplementBookingCreationLogicInNestjsValidationServiceHelper_391 {
+  static handle_391(payload: any) {
+    console.log("Triggered helper: feat: implement booking creation logic in nestjs validation service");
+    return payload;
+  }
+}
