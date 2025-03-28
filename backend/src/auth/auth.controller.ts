@@ -117,3 +117,10 @@
     this.logger.log('Executing implementJwtAuthStrategyInNestjsPassportWrapper_364');
     return this.service.implementJwtAuthStrategyInNestjsPassportWrapper(dto);
   }
+
+  // Added for: feat: implement passport local strategy for nestjs auth service (Change ID: 395)
+  @Post('service_395')
+  async implementPassportLocalStrategyForNestjsAuthService_395(@Body() dto: any) {
+    this.logger.log('Executing implementPassportLocalStrategyForNestjsAuthService_395');
+    return this.service.implementPassportLocalStrategyForNestjsAuthService(dto);
+  }
