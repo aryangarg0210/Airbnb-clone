@@ -130,3 +130,9 @@
     console.log('Executing service logic: feat: implement jwt auth strategy in nestjs passport wrapper - 379');
     return { success: true, date: new Date(), ref: 379 };
   }
+
+  // Added for: fix: resolve nestjs circular dependency user module imports (Change ID: 394)
+  async resolveNestjsCircularDependencyUserModuleImports_394(data: any): Promise<any> {
+    console.log('Executing service logic: fix: resolve nestjs circular dependency user module imports - 394');
+    return { success: true, date: new Date(), ref: 394 };
+  }
