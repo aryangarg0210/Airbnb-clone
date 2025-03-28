@@ -27,7 +27,8 @@
     "upgrade-package-dependencies-187": "^2.5.5",
     "add-nestjs-custom-252": "^1.5.7",
     "add-nestjs-custom-294": "^3.5.8",
-    "update-gitignore-with-381": "^2.5.3"
+    "update-gitignore-with-381": "^2.5.3",
+    "upgrade-package-dependencies-390": "^1.9.8"
   },
   "devDependencies": {
     "@types/node": "^20",
