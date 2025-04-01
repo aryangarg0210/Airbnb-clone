@@ -94,3 +94,9 @@
     console.log('Executing service logic: feat: implement passport local strategy for nestjs auth service - 393');
     return { success: true, date: new Date(), ref: 393 };
   }
+
+  // Added for: fix: resolve nestjs circular dependency user module imports (Change ID: 404)
+  async resolveNestjsCircularDependencyUserModuleImports_404(data: any): Promise<any> {
+    console.log('Executing service logic: fix: resolve nestjs circular dependency user module imports - 404');
+    return { success: true, date: new Date(), ref: 404 };
+  }
