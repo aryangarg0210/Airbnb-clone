@@ -80,3 +80,4 @@ Happy Coding!
 - **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 380).
 - **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 385).
 - **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 392).
+- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 401).
