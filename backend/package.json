@@ -12,6 +12,7 @@
     "upgrade-package-dependencies-100": "^3.3.2",
     "configure-nextjs-compiler-117": "^2.4.6",
     "upgrade-package-dependencies-190": "^1.7.1",
-    "add-nestjs-custom-289": "^2.8.7"
+    "add-nestjs-custom-289": "^2.8.7",
+    "add-nestjs-custom-405": "^3.3.8"
   }
 }
