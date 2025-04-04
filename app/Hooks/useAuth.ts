@@ -46,3 +46,11 @@ export class AddDebouncedSearchingHookFilterForBookingListingsHelper_210 {
     return payload;
   }
 }
+
+// Added for: fix: fix loading state freeze on client fetch error fallback (Change ID: 418)
+export class FixLoadingStateFreezeOnClientFetchErrorFallbackHelper_418 {
+  static handle_418(payload: any) {
+    console.log("Triggered helper: fix: fix loading state freeze on client fetch error fallback");
+    return payload;
+  }
+}
