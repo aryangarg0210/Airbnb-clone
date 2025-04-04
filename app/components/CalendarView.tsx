@@ -150,3 +150,11 @@ export class AddResponsiveSidebarAndNavigationHeaderBarInNextjsHelper_402 {
     return payload;
   }
 }
+
+// Added for: refactor: convert component state tracking to nextjs providers context (Change ID: 415)
+export class ConvertComponentStateTrackingToNextjsProvidersContextHelper_415 {
+  static handle_415(payload: any) {
+    console.log("Triggered helper: refactor: convert component state tracking to nextjs providers context");
+    return payload;
+  }
+}
