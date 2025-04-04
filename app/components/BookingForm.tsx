@@ -182,3 +182,11 @@ export class ResolveNextjsHydrationMismatchInNavbarHelper_403 {
     return payload;
   }
 }
+
+// Added for: feat: integrate shadcn date range calendar in nextjs booking form (Change ID: 416)
+export class IntegrateShadcnDateRangeCalendarInNextjsBookingFormHelper_416 {
+  static handle_416(payload: any) {
+    console.log("Triggered helper: feat: integrate shadcn date range calendar in nextjs booking form");
+    return payload;
+  }
+}
