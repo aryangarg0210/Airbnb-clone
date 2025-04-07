@@ -382,3 +382,11 @@ body,
   gap: 16px;
   align-items: center;
 }
+
+/* Added for: style: optimize navigation drawer transition speed styling (Change ID: 426) */
+.optimize-navigation-drawer-426-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
