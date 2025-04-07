@@ -190,3 +190,11 @@ export class IntegrateShadcnDateRangeCalendarInNextjsBookingFormHelper_416 {
     return payload;
   }
 }
+
+// Added for: refactor: convert component state tracking to nextjs providers context (Change ID: 424)
+export class ConvertComponentStateTrackingToNextjsProvidersContextHelper_424 {
+  static handle_424(payload: any) {
+    console.log("Triggered helper: refactor: convert component state tracking to nextjs providers context");
+    return payload;
+  }
+}
