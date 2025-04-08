@@ -103,3 +103,10 @@
     this.logger.log('Executing optimizeSlowSqlAggregateQueryInBookingMetricsController_432');
     return this.service.optimizeSlowSqlAggregateQueryInBookingMetricsController(dto);
   }
+
+  // Added for: feat: add booking cancel PATCH endpoint and modify service state (Change ID: 433)
+  @Post('state_433')
+  async addBookingCancelPatchEndpointAndModifyServiceState_433(@Body() dto: any) {
+    this.logger.log('Executing addBookingCancelPatchEndpointAndModifyServiceState_433');
+    return this.service.addBookingCancelPatchEndpointAndModifyServiceState(dto);
+  }
