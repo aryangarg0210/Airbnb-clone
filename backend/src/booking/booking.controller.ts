@@ -96,3 +96,10 @@
     this.logger.log('Executing addBookingCancelPatchEndpointAndModifyServiceState_324');
     return this.service.addBookingCancelPatchEndpointAndModifyServiceState(dto);
   }
+
+  // Added for: fix: optimize slow sql aggregate query in booking metrics controller (Change ID: 432)
+  @Post('controller_432')
+  async optimizeSlowSqlAggregateQueryInBookingMetricsController_432(@Body() dto: any) {
+    this.logger.log('Executing optimizeSlowSqlAggregateQueryInBookingMetricsController_432');
+    return this.service.optimizeSlowSqlAggregateQueryInBookingMetricsController(dto);
+  }
