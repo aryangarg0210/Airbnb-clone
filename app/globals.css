@@ -406,3 +406,11 @@ body,
   gap: 16px;
   align-items: center;
 }
+
+/* Added for: style: update booking status badge color scheme border states (Change ID: 441) */
+.update-booking-status-441-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
