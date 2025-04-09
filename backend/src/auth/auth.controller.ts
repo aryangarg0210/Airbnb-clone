@@ -131,3 +131,10 @@
     this.logger.log('Executing createUserDatabaseEntityAndSchemaModelDefinition_413');
     return this.service.createUserDatabaseEntityAndSchemaModelDefinition(dto);
   }
+
+  // Added for: fix: resolve jwt auth token expiration grace period verification (Change ID: 437)
+  @Post('verification_437')
+  async resolveJwtAuthTokenExpirationGracePeriodVerification_437(@Body() dto: any) {
+    this.logger.log('Executing resolveJwtAuthTokenExpirationGracePeriodVerification_437');
+    return this.service.resolveJwtAuthTokenExpirationGracePeriodVerification(dto);
+  }
