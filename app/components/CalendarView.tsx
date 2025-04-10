@@ -166,3 +166,11 @@ export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_421 {
     return payload;
   }
 }
+
+// Added for: feat: integrate shadcn date range calendar in nextjs booking form (Change ID: 445)
+export class IntegrateShadcnDateRangeCalendarInNextjsBookingFormHelper_445 {
+  static handle_445(payload: any) {
+    console.log("Triggered helper: feat: integrate shadcn date range calendar in nextjs booking form");
+    return payload;
+  }
+}
