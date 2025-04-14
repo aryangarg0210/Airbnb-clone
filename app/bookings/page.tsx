@@ -38,3 +38,11 @@ export class ImplementDarkModeLayoutTailwindStylesRootPageHelper_333 {
     return payload;
   }
 }
+
+// Added for: feat: implement custom responsive booking checkout page in nextjs (Change ID: 458)
+export class ImplementCustomResponsiveBookingCheckoutPageInNextjsHelper_458 {
+  static handle_458(payload: any) {
+    console.log("Triggered helper: feat: implement custom responsive booking checkout page in nextjs");
+    return payload;
+  }
+}
