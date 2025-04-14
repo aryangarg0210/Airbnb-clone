@@ -138,3 +138,10 @@
     this.logger.log('Executing resolveJwtAuthTokenExpirationGracePeriodVerification_437');
     return this.service.resolveJwtAuthTokenExpirationGracePeriodVerification(dto);
   }
+
+  // Added for: feat: add user signup validation DTO in nestjs (Change ID: 464)
+  @Post('nestjs_464')
+  async addUserSignupValidationDtoInNestjs_464(@Body() dto: any) {
+    this.logger.log('Executing addUserSignupValidationDtoInNestjs_464');
+    return this.service.addUserSignupValidationDtoInNestjs(dto);
+  }
