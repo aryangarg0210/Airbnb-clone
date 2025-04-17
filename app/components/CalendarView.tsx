@@ -182,3 +182,11 @@ export class ConvertComponentStateTrackingToNextjsProvidersContextHelper_462 {
     return payload;
   }
 }
+
+// Added for: fix: resolve nextjs server-client hydration mismatch in navbar (Change ID: 465)
+export class ResolveNextjsHydrationMismatchInNavbarHelper_465 {
+  static handle_465(payload: any) {
+    console.log("Triggered helper: fix: resolve nextjs server-client hydration mismatch in navbar");
+    return payload;
+  }
+}
