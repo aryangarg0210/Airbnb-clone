@@ -358,3 +358,11 @@ export class FixNestjsInterceptorHeadersMetadataAttachmentHelper_466 {
     return payload;
   }
 }
+
+// Added for: feat: implement nestjs exception filter for API errors (Change ID: 479)
+export class ImplementNestjsExceptionFilterForApiErrorsHelper_479 {
+  static handle_479(payload: any) {
+    console.log("Triggered helper: feat: implement nestjs exception filter for API errors");
+    return payload;
+  }
+}
