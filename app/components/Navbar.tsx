@@ -158,3 +158,11 @@ export class IntegrateShadcnDateRangeCalendarInNextjsBookingFormHelper_408 {
     return payload;
   }
 }
+
+// Added for: refactor: split booking form page into modular ui fields components (Change ID: 495)
+export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_495 {
+  static handle_495(payload: any) {
+    console.log("Triggered helper: refactor: split booking form page into modular ui fields components");
+    return payload;
+  }
+}
