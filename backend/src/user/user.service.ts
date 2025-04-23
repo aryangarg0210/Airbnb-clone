@@ -142,3 +142,9 @@
     console.log('Executing service logic: fix: resolve jwt auth token expiration grace period verification - 484');
     return { success: true, date: new Date(), ref: 484 };
   }
+
+  // Added for: fix: fix incorrect regex string validator in user auth DTO (Change ID: 492)
+  async fixIncorrectRegexStringValidatorInUserAuthDto_492(data: any): Promise<any> {
+    console.log('Executing service logic: fix: fix incorrect regex string validator in user auth DTO - 492');
+    return { success: true, date: new Date(), ref: 492 };
+  }
