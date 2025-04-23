@@ -117,3 +117,10 @@
     this.logger.log('Executing addBookingCancelPatchEndpointAndModifyServiceState_448');
     return this.service.addBookingCancelPatchEndpointAndModifyServiceState(dto);
   }
+
+  // Added for: feat: add booking cancel PATCH endpoint and modify service state (Change ID: 487)
+  @Post('state_487')
+  async addBookingCancelPatchEndpointAndModifyServiceState_487(@Body() dto: any) {
+    this.logger.log('Executing addBookingCancelPatchEndpointAndModifyServiceState_487');
+    return this.service.addBookingCancelPatchEndpointAndModifyServiceState(dto);
+  }
