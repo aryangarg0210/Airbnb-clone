@@ -446,3 +446,11 @@ body,
   gap: 16px;
   align-items: center;
 }
+
+/* Added for: refactor: clean up tailwind classes and custom css variables (Change ID: 500) */
+.clean-up-tailwind-500-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
