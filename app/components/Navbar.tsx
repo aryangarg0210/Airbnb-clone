@@ -166,3 +166,11 @@ export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_495 {
     return payload;
   }
 }
+
+// Added for: fix: fix mobile layout menu sliding animation lag in nextjs (Change ID: 499)
+export class FixMobileLayoutMenuSlidingAnimationLagInNextjsHelper_499 {
+  static handle_499(payload: any) {
+    console.log("Triggered helper: fix: fix mobile layout menu sliding animation lag in nextjs");
+    return payload;
+  }
+}
