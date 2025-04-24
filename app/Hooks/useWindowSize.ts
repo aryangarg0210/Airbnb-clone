@@ -94,3 +94,11 @@ export class CreateUseauthHooksInNextjsForSessionStateTrackingHelper_469 {
     return payload;
   }
 }
+
+// Added for: fix: fix loading state freeze on client fetch error fallback (Change ID: 502)
+export class FixLoadingStateFreezeOnClientFetchErrorFallbackHelper_502 {
+  static handle_502(payload: any) {
+    console.log("Triggered helper: fix: fix loading state freeze on client fetch error fallback");
+    return payload;
+  }
+}
