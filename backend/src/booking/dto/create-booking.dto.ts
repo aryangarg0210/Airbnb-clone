@@ -222,3 +222,11 @@ export class FixDuplicateBookingsSubmissionDoubleClickRaceConditionHelper_438 {
     return payload;
   }
 }
+
+// Added for: feat: implement booking entity and schema relation mappings (Change ID: 498)
+export class ImplementBookingEntityAndSchemaRelationMappingsHelper_498 {
+  static handle_498(payload: any) {
+    console.log("Triggered helper: feat: implement booking entity and schema relation mappings");
+    return payload;
+  }
+}
