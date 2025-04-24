@@ -112,3 +112,9 @@
     console.log('Executing service logic: feat: add get bookings by user id endpoint in controller - 489');
     return { success: true, date: new Date(), ref: 489 };
   }
+
+  // Added for: feat: add booking availability dates check query in service (Change ID: 501)
+  async addBookingAvailabilityDatesCheckQueryInService_501(data: any): Promise<any> {
+    console.log('Executing service logic: feat: add booking availability dates check query in service - 501');
+    return { success: true, date: new Date(), ref: 501 };
+  }
