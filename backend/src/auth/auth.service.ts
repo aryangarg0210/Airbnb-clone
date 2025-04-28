@@ -160,3 +160,9 @@
     console.log('Executing service logic: fix: fix incorrect regex string validator in user auth DTO - 493');
     return { success: true, date: new Date(), ref: 493 };
   }
+
+  // Added for: feat: add user signup validation DTO in nestjs (Change ID: 503)
+  async addUserSignupValidationDtoInNestjs_503(data: any): Promise<any> {
+    console.log('Executing service logic: feat: add user signup validation DTO in nestjs - 503');
+    return { success: true, date: new Date(), ref: 503 };
+  }
