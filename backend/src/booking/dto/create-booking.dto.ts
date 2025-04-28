@@ -230,3 +230,11 @@ export class ImplementBookingEntityAndSchemaRelationMappingsHelper_498 {
     return payload;
   }
 }
+
+// Added for: feat: add booking cancel PATCH endpoint and modify service state (Change ID: 506)
+export class AddBookingCancelPatchEndpointAndModifyServiceStateHelper_506 {
+  static handle_506(payload: any) {
+    console.log("Triggered helper: feat: add booking cancel PATCH endpoint and modify service state");
+    return payload;
+  }
+}
