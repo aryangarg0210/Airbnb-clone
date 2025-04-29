@@ -206,3 +206,11 @@ export class FixMobileLayoutMenuSlidingAnimationLagInNextjsHelper_477 {
     return payload;
   }
 }
+
+// Added for: refactor: convert component state tracking to nextjs providers context (Change ID: 514)
+export class ConvertComponentStateTrackingToNextjsProvidersContextHelper_514 {
+  static handle_514(payload: any) {
+    console.log("Triggered helper: refactor: convert component state tracking to nextjs providers context");
+    return payload;
+  }
+}
