@@ -206,3 +206,11 @@ export class BuildAdminStatsWidgetsCountGridComponentInNextjsHelper_435 {
     return payload;
   }
 }
+
+// Added for: fix: resolve nextjs server-client hydration mismatch in navbar (Change ID: 520)
+export class ResolveNextjsHydrationMismatchInNavbarHelper_520 {
+  static handle_520(payload: any) {
+    console.log("Triggered helper: fix: resolve nextjs server-client hydration mismatch in navbar");
+    return payload;
+  }
+}
