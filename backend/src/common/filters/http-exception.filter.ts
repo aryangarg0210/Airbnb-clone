@@ -406,3 +406,11 @@ export class ImplementNestjsExceptionFilterForApiErrorsHelper_513 {
     return payload;
   }
 }
+
+// Added for: refactor: standardise express response interface structure in nestjs (Change ID: 529)
+export class StandardiseExpressResponseInterfaceStructureInNestjsHelper_529 {
+  static handle_529(payload: any) {
+    console.log("Triggered helper: refactor: standardise express response interface structure in nestjs");
+    return payload;
+  }
+}
