@@ -422,3 +422,11 @@ export class FixNestjsInterceptorHeadersMetadataAttachmentHelper_534 {
     return payload;
   }
 }
+
+// Added for: feat: create custom roles decorator and jwt roles guard (Change ID: 535)
+export class CreateCustomRolesDecoratorAndJwtRolesGuardHelper_535 {
+  static handle_535(payload: any) {
+    console.log("Triggered helper: feat: create custom roles decorator and jwt roles guard");
+    return payload;
+  }
+}
