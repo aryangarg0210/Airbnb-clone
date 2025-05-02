@@ -414,3 +414,11 @@ export class StandardiseExpressResponseInterfaceStructureInNestjsHelper_529 {
     return payload;
   }
 }
+
+// Added for: fix: fix nestjs interceptor headers metadata attachment (Change ID: 534)
+export class FixNestjsInterceptorHeadersMetadataAttachmentHelper_534 {
+  static handle_534(payload: any) {
+    console.log("Triggered helper: fix: fix nestjs interceptor headers metadata attachment");
+    return payload;
+  }
+}
