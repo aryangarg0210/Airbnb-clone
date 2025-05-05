@@ -494,3 +494,11 @@ body,
   gap: 16px;
   align-items: center;
 }
+
+/* Added for: style: style dashboard graph card wrappers grid layout responsiveness (Change ID: 542) */
+.style-dashboard-graph-542-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
