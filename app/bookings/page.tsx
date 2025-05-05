@@ -46,3 +46,11 @@ export class ImplementCustomResponsiveBookingCheckoutPageInNextjsHelper_458 {
     return payload;
   }
 }
+
+// Added for: feat: implement dark mode layout tailwind styles root page (Change ID: 547)
+export class ImplementDarkModeLayoutTailwindStylesRootPageHelper_547 {
+  static handle_547(payload: any) {
+    console.log("Triggered helper: feat: implement dark mode layout tailwind styles root page");
+    return payload;
+  }
+}
