@@ -131,3 +131,10 @@
     this.logger.log('Executing optimizeSlowSqlAggregateQueryInBookingMetricsController_523');
     return this.service.optimizeSlowSqlAggregateQueryInBookingMetricsController(dto);
   }
+
+  // Added for: fix: fix duplicate bookings submission double click race condition (Change ID: 545)
+  @Post('condition_545')
+  async fixDuplicateBookingsSubmissionDoubleClickRaceCondition_545(@Body() dto: any) {
+    this.logger.log('Executing fixDuplicateBookingsSubmissionDoubleClickRaceCondition_545');
+    return this.service.fixDuplicateBookingsSubmissionDoubleClickRaceCondition(dto);
+  }
