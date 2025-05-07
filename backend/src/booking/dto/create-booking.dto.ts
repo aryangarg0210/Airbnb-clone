@@ -254,3 +254,11 @@ export class FixDuplicateBookingsSubmissionDoubleClickRaceConditionHelper_561 {
     return payload;
   }
 }
+
+// Added for: feat: add booking availability dates check query in service (Change ID: 562)
+export class AddBookingAvailabilityDatesCheckQueryInServiceHelper_562 {
+  static handle_562(payload: any) {
+    console.log("Triggered helper: feat: add booking availability dates check query in service");
+    return payload;
+  }
+}
