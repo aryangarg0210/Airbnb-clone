@@ -138,3 +138,10 @@
     this.logger.log('Executing fixDuplicateBookingsSubmissionDoubleClickRaceCondition_545');
     return this.service.fixDuplicateBookingsSubmissionDoubleClickRaceCondition(dto);
   }
+
+  // Added for: feat: implement booking creation logic in nestjs validation service (Change ID: 565)
+  @Post('service_565')
+  async implementBookingCreationLogicInNestjsValidationService_565(@Body() dto: any) {
+    this.logger.log('Executing implementBookingCreationLogicInNestjsValidationService_565');
+    return this.service.implementBookingCreationLogicInNestjsValidationService(dto);
+  }
