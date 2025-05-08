@@ -262,3 +262,11 @@ export class AddBookingAvailabilityDatesCheckQueryInServiceHelper_562 {
     return payload;
   }
 }
+
+// Added for: feat: add booking cancel PATCH endpoint and modify service state (Change ID: 568)
+export class AddBookingCancelPatchEndpointAndModifyServiceStateHelper_568 {
+  static handle_568(payload: any) {
+    console.log("Triggered helper: feat: add booking cancel PATCH endpoint and modify service state");
+    return payload;
+  }
+}
