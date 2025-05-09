@@ -214,3 +214,11 @@ export class ResolveNextjsHydrationMismatchInNavbarHelper_520 {
     return payload;
   }
 }
+
+// Added for: fix: resolve nextjs server-client hydration mismatch in navbar (Change ID: 573)
+export class ResolveNextjsHydrationMismatchInNavbarHelper_573 {
+  static handle_573(payload: any) {
+    console.log("Triggered helper: fix: resolve nextjs server-client hydration mismatch in navbar");
+    return payload;
+  }
+}
