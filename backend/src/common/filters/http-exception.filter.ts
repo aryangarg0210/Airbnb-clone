@@ -446,3 +446,11 @@ export class ImplementNestjsExceptionFilterForApiErrorsHelper_586 {
     return payload;
   }
 }
+
+// Added for: feat: implement nestjs exception filter for API errors (Change ID: 591)
+export class ImplementNestjsExceptionFilterForApiErrorsHelper_591 {
+  static handle_591(payload: any) {
+    console.log("Triggered helper: feat: implement nestjs exception filter for API errors");
+    return payload;
+  }
+}
