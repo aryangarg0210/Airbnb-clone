@@ -145,3 +145,10 @@
     this.logger.log('Executing implementBookingCreationLogicInNestjsValidationService_565');
     return this.service.implementBookingCreationLogicInNestjsValidationService(dto);
   }
+
+  // Added for: fix: optimize slow sql aggregate query in booking metrics controller (Change ID: 587)
+  @Post('controller_587')
+  async optimizeSlowSqlAggregateQueryInBookingMetricsController_587(@Body() dto: any) {
+    this.logger.log('Executing optimizeSlowSqlAggregateQueryInBookingMetricsController_587');
+    return this.service.optimizeSlowSqlAggregateQueryInBookingMetricsController(dto);
+  }
