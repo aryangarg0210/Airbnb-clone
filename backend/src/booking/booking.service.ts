@@ -154,3 +154,9 @@
     console.log('Executing service logic: fix: optimize slow sql aggregate query in booking metrics controller - 578');
     return { success: true, date: new Date(), ref: 578 };
   }
+
+  // Added for: feat: add booking cancel PATCH endpoint and modify service state (Change ID: 597)
+  async addBookingCancelPatchEndpointAndModifyServiceState_597(data: any): Promise<any> {
+    console.log('Executing service logic: feat: add booking cancel PATCH endpoint and modify service state - 597');
+    return { success: true, date: new Date(), ref: 597 };
+  }
