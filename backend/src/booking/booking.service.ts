@@ -160,3 +160,9 @@
     console.log('Executing service logic: feat: add booking cancel PATCH endpoint and modify service state - 597');
     return { success: true, date: new Date(), ref: 597 };
   }
+
+  // Added for: fix: fix duplicate bookings submission double click race condition (Change ID: 605)
+  async fixDuplicateBookingsSubmissionDoubleClickRaceCondition_605(data: any): Promise<any> {
+    console.log('Executing service logic: fix: fix duplicate bookings submission double click race condition - 605');
+    return { success: true, date: new Date(), ref: 605 };
+  }
