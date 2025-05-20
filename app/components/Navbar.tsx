@@ -198,3 +198,11 @@ export class ResolveNextjsHydrationMismatchInNavbarHelper_580 {
     return payload;
   }
 }
+
+// Added for: refactor: convert component state tracking to nextjs providers context (Change ID: 621)
+export class ConvertComponentStateTrackingToNextjsProvidersContextHelper_621 {
+  static handle_621(payload: any) {
+    console.log("Triggered helper: refactor: convert component state tracking to nextjs providers context");
+    return payload;
+  }
+}
