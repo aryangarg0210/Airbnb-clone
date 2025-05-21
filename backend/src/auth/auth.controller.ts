@@ -173,3 +173,10 @@
     this.logger.log('Executing extractNestjsAuthControllersInto_619');
     return this.service.extractNestjsAuthControllersInto(dto);
   }
+
+  // Added for: fix: fix incorrect regex string validator in user auth DTO (Change ID: 630)
+  @Post('dto_630')
+  async fixIncorrectRegexStringValidatorInUserAuthDto_630(@Body() dto: any) {
+    this.logger.log('Executing fixIncorrectRegexStringValidatorInUserAuthDto_630');
+    return this.service.fixIncorrectRegexStringValidatorInUserAuthDto(dto);
+  }
