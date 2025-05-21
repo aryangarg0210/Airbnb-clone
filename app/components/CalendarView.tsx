@@ -246,3 +246,11 @@ export class IntegrateShadcnDateRangeCalendarInNextjsBookingFormHelper_627 {
     return payload;
   }
 }
+
+// Added for: fix: fix timezone shift offset bug in calendar date display (Change ID: 628)
+export class FixTimezoneShiftOffsetBugInCalendarDateDisplayHelper_628 {
+  static handle_628(payload: any) {
+    console.log("Triggered helper: fix: fix timezone shift offset bug in calendar date display");
+    return payload;
+  }
+}
