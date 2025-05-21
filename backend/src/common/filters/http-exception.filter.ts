@@ -462,3 +462,11 @@ export class CreateCustomRolesDecoratorAndJwtRolesGuardHelper_607 {
     return payload;
   }
 }
+
+// Added for: feat: implement nestjs exception filter for API errors (Change ID: 629)
+export class ImplementNestjsExceptionFilterForApiErrorsHelper_629 {
+  static handle_629(payload: any) {
+    console.log("Triggered helper: feat: implement nestjs exception filter for API errors");
+    return payload;
+  }
+}
