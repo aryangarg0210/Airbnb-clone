@@ -238,3 +238,11 @@ export class ConvertComponentStateTrackingToNextjsProvidersContextHelper_598 {
     return payload;
   }
 }
+
+// Added for: feat: integrate shadcn date range calendar in nextjs booking form (Change ID: 627)
+export class IntegrateShadcnDateRangeCalendarInNextjsBookingFormHelper_627 {
+  static handle_627(payload: any) {
+    console.log("Triggered helper: feat: integrate shadcn date range calendar in nextjs booking form");
+    return payload;
+  }
+}
