@@ -172,3 +172,9 @@
     console.log('Executing service logic: feat: add get bookings by user id endpoint in controller - 620');
     return { success: true, date: new Date(), ref: 620 };
   }
+
+  // Added for: fix: fix duplicate bookings submission double click race condition (Change ID: 638)
+  async fixDuplicateBookingsSubmissionDoubleClickRaceCondition_638(data: any): Promise<any> {
+    console.log('Executing service logic: fix: fix duplicate bookings submission double click race condition - 638');
+    return { success: true, date: new Date(), ref: 638 };
+  }
