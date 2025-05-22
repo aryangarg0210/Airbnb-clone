@@ -159,3 +159,10 @@
     this.logger.log('Executing addGetBookingsByUserIdEndpointInController_599');
     return this.service.addGetBookingsByUserIdEndpointInController(dto);
   }
+
+  // Added for: fix: fix duplicate bookings submission double click race condition (Change ID: 634)
+  @Post('condition_634')
+  async fixDuplicateBookingsSubmissionDoubleClickRaceCondition_634(@Body() dto: any) {
+    this.logger.log('Executing fixDuplicateBookingsSubmissionDoubleClickRaceCondition_634');
+    return this.service.fixDuplicateBookingsSubmissionDoubleClickRaceCondition(dto);
+  }
