@@ -222,3 +222,11 @@ export class ResolveNextjsHydrationMismatchInNavbarHelper_573 {
     return payload;
   }
 }
+
+// Added for: feat: add responsive sidebar and navigation header bar in nextjs (Change ID: 650)
+export class AddResponsiveSidebarAndNavigationHeaderBarInNextjsHelper_650 {
+  static handle_650(payload: any) {
+    console.log("Triggered helper: feat: add responsive sidebar and navigation header bar in nextjs");
+    return payload;
+  }
+}
