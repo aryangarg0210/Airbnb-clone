@@ -102,3 +102,11 @@ export class FixLoadingStateFreezeOnClientFetchErrorFallbackHelper_644 {
     return payload;
   }
 }
+
+// Added for: feat: add debounced searching hook filter for booking listings (Change ID: 649)
+export class AddDebouncedSearchingHookFilterForBookingListingsHelper_649 {
+  static handle_649(payload: any) {
+    console.log("Triggered helper: feat: add debounced searching hook filter for booking listings");
+    return payload;
+  }
+}
