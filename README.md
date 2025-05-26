@@ -109,3 +109,4 @@ Happy Coding!
 - **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 613).
 - **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 622).
 - **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 640).
+- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 652).
