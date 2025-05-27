@@ -502,3 +502,11 @@ export class FixNestjsValidationPipeTypeCoercionSettingsHelper_661 {
     return payload;
   }
 }
+
+// Added for: refactor: standardise express response interface structure in nestjs (Change ID: 662)
+export class StandardiseExpressResponseInterfaceStructureInNestjsHelper_662 {
+  static handle_662(payload: any) {
+    console.log("Triggered helper: refactor: standardise express response interface structure in nestjs");
+    return payload;
+  }
+}
