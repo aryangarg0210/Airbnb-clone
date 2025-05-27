@@ -166,3 +166,10 @@
     this.logger.log('Executing fixDuplicateBookingsSubmissionDoubleClickRaceCondition_634');
     return this.service.fixDuplicateBookingsSubmissionDoubleClickRaceCondition(dto);
   }
+
+  // Added for: refactor: optimize booking calendar range verification logic (Change ID: 657)
+  @Post('logic_657')
+  async optimizeBookingCalendarRangeVerificationLogic_657(@Body() dto: any) {
+    this.logger.log('Executing optimizeBookingCalendarRangeVerificationLogic_657');
+    return this.service.optimizeBookingCalendarRangeVerificationLogic(dto);
+  }
