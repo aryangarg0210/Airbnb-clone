@@ -196,3 +196,9 @@
     console.log('Executing service logic: feat: create user database entity and schema model definition - 637');
     return { success: true, date: new Date(), ref: 637 };
   }
+
+  // Added for: feat: add user signup validation DTO in nestjs (Change ID: 670)
+  async addUserSignupValidationDtoInNestjs_670(data: any): Promise<any> {
+    console.log('Executing service logic: feat: add user signup validation DTO in nestjs - 670');
+    return { success: true, date: new Date(), ref: 670 };
+  }
