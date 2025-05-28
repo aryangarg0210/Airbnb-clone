@@ -187,3 +187,10 @@
     this.logger.log('Executing createUserDatabaseEntityAndSchemaModelDefinition_635');
     return this.service.createUserDatabaseEntityAndSchemaModelDefinition(dto);
   }
+
+  // Added for: feat: implement passport local strategy for nestjs auth service (Change ID: 669)
+  @Post('service_669')
+  async implementPassportLocalStrategyForNestjsAuthService_669(@Body() dto: any) {
+    this.logger.log('Executing implementPassportLocalStrategyForNestjsAuthService_669');
+    return this.service.implementPassportLocalStrategyForNestjsAuthService(dto);
+  }
