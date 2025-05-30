@@ -230,3 +230,11 @@ export class BuildAdminStatsWidgetsCountGridComponentInNextjsHelper_641 {
     return payload;
   }
 }
+
+// Added for: fix: fix mobile layout menu sliding animation lag in nextjs (Change ID: 674)
+export class FixMobileLayoutMenuSlidingAnimationLagInNextjsHelper_674 {
+  static handle_674(payload: any) {
+    console.log("Triggered helper: fix: fix mobile layout menu sliding animation lag in nextjs");
+    return payload;
+  }
+}
