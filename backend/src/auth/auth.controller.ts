@@ -194,3 +194,10 @@
     this.logger.log('Executing implementPassportLocalStrategyForNestjsAuthService_669');
     return this.service.implementPassportLocalStrategyForNestjsAuthService(dto);
   }
+
+  // Added for: feat: add user signup validation DTO in nestjs (Change ID: 671)
+  @Post('nestjs_671')
+  async addUserSignupValidationDtoInNestjs_671(@Body() dto: any) {
+    this.logger.log('Executing addUserSignupValidationDtoInNestjs_671');
+    return this.service.addUserSignupValidationDtoInNestjs(dto);
+  }
