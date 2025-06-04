@@ -110,3 +110,11 @@ export class AddDebouncedSearchingHookFilterForBookingListingsHelper_649 {
     return payload;
   }
 }
+
+// Added for: feat: add debounced searching hook filter for booking listings (Change ID: 690)
+export class AddDebouncedSearchingHookFilterForBookingListingsHelper_690 {
+  static handle_690(payload: any) {
+    console.log("Triggered helper: feat: add debounced searching hook filter for booking listings");
+    return payload;
+  }
+}
