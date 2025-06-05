@@ -638,3 +638,11 @@ body,
   gap: 16px;
   align-items: center;
 }
+
+/* Added for: style: add pulsing skeleton screens skeleton load states booking list (Change ID: 698) */
+.add-pulsing-skeleton-698-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
