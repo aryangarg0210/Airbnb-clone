@@ -238,3 +238,11 @@ export class FixMobileLayoutMenuSlidingAnimationLagInNextjsHelper_674 {
     return payload;
   }
 }
+
+// Added for: refactor: split booking form page into modular ui fields components (Change ID: 694)
+export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_694 {
+  static handle_694(payload: any) {
+    console.log("Triggered helper: refactor: split booking form page into modular ui fields components");
+    return payload;
+  }
+}
