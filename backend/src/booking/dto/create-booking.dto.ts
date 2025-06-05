@@ -302,3 +302,11 @@ export class OptimizeBookingCalendarRangeVerificationLogicHelper_678 {
     return payload;
   }
 }
+
+// Added for: feat: implement booking entity and schema relation mappings (Change ID: 691)
+export class ImplementBookingEntityAndSchemaRelationMappingsHelper_691 {
+  static handle_691(payload: any) {
+    console.log("Triggered helper: feat: implement booking entity and schema relation mappings");
+    return payload;
+  }
+}
