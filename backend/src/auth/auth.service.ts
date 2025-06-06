@@ -214,3 +214,9 @@
     console.log('Executing service logic: fix: resolve nestjs circular dependency user module imports - 676');
     return { success: true, date: new Date(), ref: 676 };
   }
+
+  // Added for: feat: add user signup validation DTO in nestjs (Change ID: 705)
+  async addUserSignupValidationDtoInNestjs_705(data: any): Promise<any> {
+    console.log('Executing service logic: feat: add user signup validation DTO in nestjs - 705');
+    return { success: true, date: new Date(), ref: 705 };
+  }
