@@ -19,6 +19,7 @@
     "update-gitignore-with-544": "^2.1.5",
     "add-nestjs-custom-582": "^2.6.1",
     "upgrade-package-dependencies-595": "^1.2.5",
-    "update-gitignore-with-683": "^2.3.5"
+    "update-gitignore-with-683": "^2.3.5",
+    "add-nestjs-custom-704": "^1.1.8"
   }
 }
