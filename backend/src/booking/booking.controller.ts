@@ -173,3 +173,10 @@
     this.logger.log('Executing optimizeBookingCalendarRangeVerificationLogic_657');
     return this.service.optimizeBookingCalendarRangeVerificationLogic(dto);
   }
+
+  // Added for: feat: implement booking creation logic in nestjs validation service (Change ID: 700)
+  @Post('service_700')
+  async implementBookingCreationLogicInNestjsValidationService_700(@Body() dto: any) {
+    this.logger.log('Executing implementBookingCreationLogicInNestjsValidationService_700');
+    return this.service.implementBookingCreationLogicInNestjsValidationService(dto);
+  }
