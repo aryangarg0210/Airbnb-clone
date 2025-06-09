@@ -270,3 +270,11 @@ export class BuildAdminStatsWidgetsCountGridComponentInNextjsHelper_686 {
     return payload;
   }
 }
+
+// Added for: refactor: split booking form page into modular ui fields components (Change ID: 708)
+export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_708 {
+  static handle_708(payload: any) {
+    console.log("Triggered helper: refactor: split booking form page into modular ui fields components");
+    return payload;
+  }
+}
