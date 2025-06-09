@@ -15,10 +15,10 @@ export default function Navbar() {
         <Container>
           <div
             className="
-              flex 
+              flex
               flex-row
               items-center
-              justify-between 
+              justify-between
               gap-3
               md:gap-0
             "
@@ -30,5 +30,5 @@ export default function Navbar() {
         </Container>
       </div>
     </div>
-  ) 
+  )
 }

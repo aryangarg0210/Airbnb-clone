@@ -1,0 +1,71 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id       String   @id @default(auto()) @map("_id") @db.ObjectId
+  name      String?
+  email     String?   @unique
+  password  String?
+  emailVerified DateTime?
+  image     String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  favoriteId String[] @db.ObjectId
+
+  account  Account[]
+  lisings  Listings[]
+  reservations Reservations[]
+}
+
+model Account {
+  id                String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId            String   @db.ObjectId
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.String
+  access_token      String? @db.String
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User? @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Listings {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId      String   @db.ObjectId
+  title       String
+  description String
+  imageSrc    String?
+  createdAt   DateTime @default(now())
+  category   String
+  roomCount  Int
+  bathroomCount Int
+  guestCount Int
+  locationValue String
+  user User? @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Booking {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId      String   @db.ObjectId
+  title       String
+  description String
+  imageSrc    String?
+  createdAt   DateTime @default(now())
+  category   String
+
+  user User? @relation(fields: [userId], references: [id], onDelete: Cascade)
+}

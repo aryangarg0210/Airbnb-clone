@@ -9,8 +9,8 @@ import useRegisterModal from "@/app/Hooks/useRegisterModal";
 function UserMenu() {
     const registerModal = useRegisterModal();
     const [isOpen, setIsOpen ] = useState(false);
-    
     const toggleOpen = useCallback(() => {
+        console.log("toggleOpen");
         setIsOpen((value) => !value);
     },[])
 
@@ -20,10 +20,10 @@ function UserMenu() {
             <div
                 onClick={() => {}}
                 className="
-                    hidden 
+                    hidden
                     md:block
                     text-sm
-                    font-semibold 
+                    font-semibold
                     py-4
                     px-4
                     rounded-full
@@ -42,7 +42,7 @@ function UserMenu() {
                     md:px-2
                     border-[1px]
                     border-neutral-200
-                    flex 
+                    flex
                     flex-row
                     items-center
                     gap-3
@@ -63,11 +63,11 @@ function UserMenu() {
             <div className="absolute rounded-xl shadow-md w-[40vw] md:w-3/4 bg-white overflow-hidden right-0 top-12 text-sm">
                 <div className="flex flex-col cursor-pointer">
                     <>
-                      <MenuItem  
+                      <MenuItem
                             onClick={registerModal.onOpen}
                             label="Login"
                        />
-                      <MenuItem  
+                      <MenuItem
                             onClick={registerModal.onOpen}
                             label="Sign Up"
                        />

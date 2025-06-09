@@ -5,8 +5,8 @@ import Navbar from "./components/Navbar/Navbar";
 import RegisterModal from "@/app/components/modals/RegisterModal";
 import ToasterProvider from "./providers/ToasterProvider";
 
-const font = Nunito({ 
-  subsets: ["latin"] 
+const font = Nunito({
+  subsets: ["latin"]
 });
 
 export const metadata: Metadata = {
