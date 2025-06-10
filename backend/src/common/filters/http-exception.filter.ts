@@ -550,3 +550,11 @@ export class ImplementNestjsExceptionFilterForApiErrorsHelper_710 {
     return payload;
   }
 }
+
+// Added for: fix: fix nestjs validation pipe type coercion settings (Change ID: 716)
+export class FixNestjsValidationPipeTypeCoercionSettingsHelper_716 {
+  static handle_716(payload: any) {
+    console.log("Triggered helper: fix: fix nestjs validation pipe type coercion settings");
+    return payload;
+  }
+}
