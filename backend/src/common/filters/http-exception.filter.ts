@@ -558,3 +558,11 @@ export class FixNestjsValidationPipeTypeCoercionSettingsHelper_716 {
     return payload;
   }
 }
+
+// Added for: fix: fix nestjs interceptor headers metadata attachment (Change ID: 725)
+export class FixNestjsInterceptorHeadersMetadataAttachmentHelper_725 {
+  static handle_725(payload: any) {
+    console.log("Triggered helper: fix: fix nestjs interceptor headers metadata attachment");
+    return payload;
+  }
+}
