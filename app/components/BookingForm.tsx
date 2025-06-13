@@ -246,3 +246,11 @@ export class FixTimezoneShiftOffsetBugInCalendarDateDisplayHelper_722 {
     return payload;
   }
 }
+
+// Added for: feat: build admin stats widgets count grid component in nextjs (Change ID: 733)
+export class BuildAdminStatsWidgetsCountGridComponentInNextjsHelper_733 {
+  static handle_733(payload: any) {
+    console.log("Triggered helper: feat: build admin stats widgets count grid component in nextjs");
+    return payload;
+  }
+}
