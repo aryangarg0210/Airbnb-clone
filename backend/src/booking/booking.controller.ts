@@ -180,3 +180,10 @@
     this.logger.log('Executing implementBookingCreationLogicInNestjsValidationService_700');
     return this.service.implementBookingCreationLogicInNestjsValidationService(dto);
   }
+
+  // Added for: fix: fix duplicate bookings submission double click race condition (Change ID: 741)
+  @Post('condition_741')
+  async fixDuplicateBookingsSubmissionDoubleClickRaceCondition_741(@Body() dto: any) {
+    this.logger.log('Executing fixDuplicateBookingsSubmissionDoubleClickRaceCondition_741');
+    return this.service.fixDuplicateBookingsSubmissionDoubleClickRaceCondition(dto);
+  }
