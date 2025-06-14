@@ -115,3 +115,4 @@ Happy Coding!
 - **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 688).
 - **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 713).
 - **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 726).
+- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 739).
