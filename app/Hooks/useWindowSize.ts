@@ -118,3 +118,11 @@ export class CreateUseauthHooksInNextjsForSessionStateTrackingHelper_606 {
     return payload;
   }
 }
+
+// Added for: feat: create useAuth hooks in nextjs for session state tracking (Change ID: 749)
+export class CreateUseauthHooksInNextjsForSessionStateTrackingHelper_749 {
+  static handle_749(payload: any) {
+    console.log("Triggered helper: feat: create useAuth hooks in nextjs for session state tracking");
+    return payload;
+  }
+}
