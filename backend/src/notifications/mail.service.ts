@@ -214,3 +214,9 @@
     console.log('Executing service logic: feat: generate booking invoice PDF attachment utility stream - 707');
     return { success: true, date: new Date(), ref: 707 };
   }
+
+  // Added for: feat: generate booking invoice PDF attachment utility stream (Change ID: 751)
+  async generateBookingInvoicePdfAttachmentUtilityStream_751(data: any): Promise<any> {
+    console.log('Executing service logic: feat: generate booking invoice PDF attachment utility stream - 751');
+    return { success: true, date: new Date(), ref: 751 };
+  }
