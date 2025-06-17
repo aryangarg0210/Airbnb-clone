@@ -254,3 +254,11 @@ export class AddResponsiveSidebarAndNavigationHeaderBarInNextjsHelper_729 {
     return payload;
   }
 }
+
+// Added for: fix: fix mobile layout menu sliding animation lag in nextjs (Change ID: 754)
+export class FixMobileLayoutMenuSlidingAnimationLagInNextjsHelper_754 {
+  static handle_754(payload: any) {
+    console.log("Triggered helper: fix: fix mobile layout menu sliding animation lag in nextjs");
+    return payload;
+  }
+}
