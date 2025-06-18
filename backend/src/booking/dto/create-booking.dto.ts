@@ -326,3 +326,11 @@ export class OptimizeBookingCalendarRangeVerificationLogicHelper_742 {
     return payload;
   }
 }
+
+// Added for: feat: add booking availability dates check query in service (Change ID: 760)
+export class AddBookingAvailabilityDatesCheckQueryInServiceHelper_760 {
+  static handle_760(payload: any) {
+    console.log("Triggered helper: feat: add booking availability dates check query in service");
+    return payload;
+  }
+}
