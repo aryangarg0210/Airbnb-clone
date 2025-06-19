@@ -118,3 +118,4 @@ Happy Coding!
 - **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 739).
 - **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 748).
 - **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 764).
+- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 766).
