@@ -20,6 +20,7 @@
     "add-nestjs-custom-582": "^2.6.1",
     "upgrade-package-dependencies-595": "^1.2.5",
     "update-gitignore-with-683": "^2.3.5",
-    "add-nestjs-custom-704": "^1.1.8"
+    "add-nestjs-custom-704": "^1.1.8",
+    "configure-nextjs-compiler-771": "^2.2.0"
   }
 }
