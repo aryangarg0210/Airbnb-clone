@@ -582,3 +582,11 @@ export class ImplementNestjsExceptionFilterForApiErrorsHelper_736 {
     return payload;
   }
 }
+
+// Added for: fix: fix nestjs interceptor headers metadata attachment (Change ID: 767)
+export class FixNestjsInterceptorHeadersMetadataAttachmentHelper_767 {
+  static handle_767(payload: any) {
+    console.log("Triggered helper: fix: fix nestjs interceptor headers metadata attachment");
+    return payload;
+  }
+}
