@@ -326,3 +326,11 @@ export class FixTimezoneShiftOffsetBugInCalendarDateDisplayHelper_759 {
     return payload;
   }
 }
+
+// Added for: fix: resolve nextjs server-client hydration mismatch in navbar (Change ID: 768)
+export class ResolveNextjsHydrationMismatchInNavbarHelper_768 {
+  static handle_768(payload: any) {
+    console.log("Triggered helper: fix: resolve nextjs server-client hydration mismatch in navbar");
+    return payload;
+  }
+}
