@@ -35,7 +35,8 @@
     "configure-nextjs-compiler-608": "^2.7.3",
     "update-gitignore-with-682": "^2.2.3",
     "add-nestjs-custom-692": "^2.8.1",
-    "add-nestjs-custom-750": "^2.3.7"
+    "add-nestjs-custom-750": "^2.3.7",
+    "update-gitignore-with-765": "^2.6.0"
   },
   "devDependencies": {
     "@types/node": "^20",
