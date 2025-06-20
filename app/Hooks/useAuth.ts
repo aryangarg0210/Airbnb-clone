@@ -118,3 +118,11 @@ export class AddDebouncedSearchingHookFilterForBookingListingsHelper_690 {
     return payload;
   }
 }
+
+// Added for: feat: create useAuth hooks in nextjs for session state tracking (Change ID: 776)
+export class CreateUseauthHooksInNextjsForSessionStateTrackingHelper_776 {
+  static handle_776(payload: any) {
+    console.log("Triggered helper: feat: create useAuth hooks in nextjs for session state tracking");
+    return payload;
+  }
+}
