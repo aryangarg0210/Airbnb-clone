@@ -334,3 +334,11 @@ export class ResolveNextjsHydrationMismatchInNavbarHelper_768 {
     return payload;
   }
 }
+
+// Added for: fix: fix mobile layout menu sliding animation lag in nextjs (Change ID: 777)
+export class FixMobileLayoutMenuSlidingAnimationLagInNextjsHelper_777 {
+  static handle_777(payload: any) {
+    console.log("Triggered helper: fix: fix mobile layout menu sliding animation lag in nextjs");
+    return payload;
+  }
+}
