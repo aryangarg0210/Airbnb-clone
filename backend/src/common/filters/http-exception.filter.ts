@@ -598,3 +598,11 @@ export class StandardiseExpressResponseInterfaceStructureInNestjsHelper_774 {
     return payload;
   }
 }
+
+// Added for: refactor: standardise express response interface structure in nestjs (Change ID: 779)
+export class StandardiseExpressResponseInterfaceStructureInNestjsHelper_779 {
+  static handle_779(payload: any) {
+    console.log("Triggered helper: refactor: standardise express response interface structure in nestjs");
+    return payload;
+  }
+}
