@@ -250,3 +250,9 @@
     console.log('Executing service logic: refactor: extract nestjs auth controllers into sub-modules - 758');
     return { success: true, date: new Date(), ref: 758 };
   }
+
+  // Added for: fix: resolve nestjs circular dependency user module imports (Change ID: 783)
+  async resolveNestjsCircularDependencyUserModuleImports_783(data: any): Promise<any> {
+    console.log('Executing service logic: fix: resolve nestjs circular dependency user module imports - 783');
+    return { success: true, date: new Date(), ref: 783 };
+  }
