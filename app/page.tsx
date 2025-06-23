@@ -46,3 +46,11 @@ export class ImplementCustomResponsiveBookingCheckoutPageInNextjsHelper_521 {
     return payload;
   }
 }
+
+// Added for: feat: build nextjs dynamic dashboard booking list view page (Change ID: 784)
+export class BuildNextjsDynamicDashboardBookingListViewPageHelper_784 {
+  static handle_784(payload: any) {
+    console.log("Triggered helper: feat: build nextjs dynamic dashboard booking list view page");
+    return payload;
+  }
+}
