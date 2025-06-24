@@ -229,3 +229,10 @@
     this.logger.log('Executing addUserSignupValidationDtoInNestjs_787');
     return this.service.addUserSignupValidationDtoInNestjs(dto);
   }
+
+  // Added for: fix: resolve jwt auth token expiration grace period verification (Change ID: 788)
+  @Post('verification_788')
+  async resolveJwtAuthTokenExpirationGracePeriodVerification_788(@Body() dto: any) {
+    this.logger.log('Executing resolveJwtAuthTokenExpirationGracePeriodVerification_788');
+    return this.service.resolveJwtAuthTokenExpirationGracePeriodVerification(dto);
+  }
