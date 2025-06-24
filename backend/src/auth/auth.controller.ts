@@ -222,3 +222,10 @@
     this.logger.log('Executing createUserDatabaseEntityAndSchemaModelDefinition_781');
     return this.service.createUserDatabaseEntityAndSchemaModelDefinition(dto);
   }
+
+  // Added for: feat: add user signup validation DTO in nestjs (Change ID: 787)
+  @Post('nestjs_787')
+  async addUserSignupValidationDtoInNestjs_787(@Body() dto: any) {
+    this.logger.log('Executing addUserSignupValidationDtoInNestjs_787');
+    return this.service.addUserSignupValidationDtoInNestjs(dto);
+  }
