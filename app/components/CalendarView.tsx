@@ -350,3 +350,11 @@ export class ConvertComponentStateTrackingToNextjsProvidersContextHelper_785 {
     return payload;
   }
 }
+
+// Added for: refactor: split booking form page into modular ui fields components (Change ID: 792)
+export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_792 {
+  static handle_792(payload: any) {
+    console.log("Triggered helper: refactor: split booking form page into modular ui fields components");
+    return payload;
+  }
+}
