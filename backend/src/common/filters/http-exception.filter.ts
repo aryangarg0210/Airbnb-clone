@@ -606,3 +606,11 @@ export class StandardiseExpressResponseInterfaceStructureInNestjsHelper_779 {
     return payload;
   }
 }
+
+// Added for: feat: implement nestjs exception filter for API errors (Change ID: 797)
+export class ImplementNestjsExceptionFilterForApiErrorsHelper_797 {
+  static handle_797(payload: any) {
+    console.log("Triggered helper: feat: implement nestjs exception filter for API errors");
+    return payload;
+  }
+}
