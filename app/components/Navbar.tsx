@@ -262,3 +262,11 @@ export class FixMobileLayoutMenuSlidingAnimationLagInNextjsHelper_754 {
     return payload;
   }
 }
+
+// Added for: feat: add responsive sidebar and navigation header bar in nextjs (Change ID: 794)
+export class AddResponsiveSidebarAndNavigationHeaderBarInNextjsHelper_794 {
+  static handle_794(payload: any) {
+    console.log("Triggered helper: feat: add responsive sidebar and navigation header bar in nextjs");
+    return payload;
+  }
+}
