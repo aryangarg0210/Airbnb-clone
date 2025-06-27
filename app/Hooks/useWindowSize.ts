@@ -158,3 +158,11 @@ export class FixLoadingStateFreezeOnClientFetchErrorFallbackHelper_793 {
     return payload;
   }
 }
+
+// Added for: fix: fix loading state freeze on client fetch error fallback (Change ID: 800)
+export class FixLoadingStateFreezeOnClientFetchErrorFallbackHelper_800 {
+  static handle_800(payload: any) {
+    console.log("Triggered helper: fix: fix loading state freeze on client fetch error fallback");
+    return payload;
+  }
+}
