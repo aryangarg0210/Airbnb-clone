@@ -358,3 +358,11 @@ export class SplitBookingFormPageIntoModularUiFieldsComponentsHelper_792 {
     return payload;
   }
 }
+
+// Added for: fix: resolve nextjs server-client hydration mismatch in navbar (Change ID: 810)
+export class ResolveNextjsHydrationMismatchInNavbarHelper_810 {
+  static handle_810(payload: any) {
+    console.log("Triggered helper: fix: resolve nextjs server-client hydration mismatch in navbar");
+    return payload;
+  }
+}
