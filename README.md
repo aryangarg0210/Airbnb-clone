@@ -1,125 +1,105 @@
-# Airbnb Clone
+# MyBookingApp
 
-This project is a clone of Airbnb, a popular online marketplace for home-sharing and travel experiences.
+A premium, full-stack, responsive booking and reservation platform designed to handle accommodation scheduling, user auth, property exploration, and checkout. This project is structured as a monorepo featuring a Next.js frontend client and a NestJS backend API.
 
-Every component is reusable and and highly adaptable.
+---
 
-## Features
+## 🚀 Key Features
 
-* **user Authentication** : Users can create accounts, log in, and manage their profiles.With a toggle Menu.
+- **Advanced Property Exploration & Search**: Filter accommodations by location, custom price ranges, and real-time date availability.
+- **Interactive Calendar Booking**: Integrated calendar widgets with smart date-range selectors for picking reservation windows.
+- **Secure Authentication**: Robust role-based authorization using Passport JWT strategies (user session handling, token expiration, sign-up DTOs).
+- **Payment Integration**: Stripe payment gateway integration with webhooks to handle real-time checkout updates and refunds.
+- **Admin Dashboard**: Comprehensive stats cards, booking status graphs, and listing management tables.
+- **Automatic Notifications**: NodeMailer integration to automatically dispatch invoice receipts and reservation notifications to users.
+- **Responsive Layout**: Crafted with Tailwind CSS and modern CSS Modules to provide a flawless experience across mobile, tablet, and desktop viewports.
 
-* **Listings** : Users can list their properties, including photos, descriptions, and pricing.
+---
 
-* **Bookings** : Users can book listed properties, with a calendar for selecting dates.
+## 🛠️ Technology Stack
 
-* **Payments** : I haven't added this functionality yet but working on it.
+### Frontend
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **State Management & Hooks**: Custom React hooks (`useAuth`, `useWindowSize`) & Context APIs
+- **UI Components**: Custom layout elements, theme selectors (Dark/Light mode support), debounced inputs, calendar slots
 
-* **Favourite** : User can add there listing to favourite list.
+### Backend
+- **Framework**: NestJS 10
+- **Language**: TypeScript
+- **Database / ORM**: TypeORM / Prisma database pooling connections
+- **Security**: Passport JWT strategies, bcrypt password hashing, and customized interceptors
+- **API Utilities**: Global Exception Filters, custom middleware loggers, PDF stream invoicing generators
 
-It also tons of other features as well.
+---
 
-## Tech Stack
+## 📁 Directory Structure
 
-* **Frontend :** Next.js 14+ 
-* **Backend :** Next.js 14+
-* **Database :** MongoDB, Prisma
-* **Authentication :** Next Auth
-* **Others :** React-hook-form , bcrypt etc.
+```
+Airbnb-clone/
+├── app/                      # Next.js Client Application
+│   ├── Hooks/                # Custom client hooks
+│   ├── components/           # Reusable components (Navbar, BookingForm, Calendar)
+│   ├── providers/            # Client context providers
+│   ├── layout.tsx            # Global HTML/Body layout definition
+│   └── page.tsx              # Main homepage entry point
+│
+├── backend/                  # NestJS API Backend
+│   ├── src/
+│   │   ├── auth/             # Passport Strategies, controllers & guards
+│   │   ├── booking/          # Booking controllers, modules, schemas & DTOs
+│   │   ├── database/         # Data layer connection & repository modules
+│   │   ├── notifications/    # Transactional mail utilities
+│   │   ├── payment/          # Stripe checkout & webhooks logic
+│   │   ├── user/             # User management controllers & schemas
+│   │   └── main.ts
+│   └── package.json
+│
+├── package.json              # Monorepo / Frontend Package
+└── README.md
+```
 
-## Getting Started 
+---
 
-To get a local copy up and running, follow these simple steps:
+## ⚙️ Setup & Installation
 
-1. Clone the repository
-2. Install Node.js and npm
-3. Install the project dependencies
-4. Set up the database
-5. Start the server
+### Prerequisites
+- **Node.js**: `v18.x` or later
+- **npm** or **yarn**
+- A running Database (PostgreSQL / MongoDB)
 
-Please refer to the Installation Guide for detailed instructions.
+### 1. Clone the repository
+```bash
+git clone https://github.com/aryangarg0210/Airbnb-clone.git
+cd Airbnb-clone
+```
 
-## Contact 
+### 2. Configure the Backend
+Navigate to the `backend/` directory, install dependencies, and setup the environment variables:
+```bash
+cd backend
+npm install
+```
+Create a `.env` file matching `.env.example`:
+```env
+PORT=4000
+DATABASE_URL=your-database-connection-url
+JWT_SECRET=your-jwt-secret-key
+STRIPE_API_KEY=your-stripe-secret-key
+STRIPE_WEBHOOK_SECRET=your-stripe-webhook-secret
+MAIL_USER=your-email@domain.com
+MAIL_PASS=your-email-password
+```
 
-For any query feel free to reach out to me.
+Run the backend:
+```bash
+npm run start:dev
+```
 
-Happy Coding!
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 14).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 17).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 38).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 56).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 61).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 63).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 64).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 72).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 80).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 84).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 111).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 113).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 115).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 116).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 121).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 123).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 142).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 151).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 154).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 176).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 183).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 196).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 237).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 238).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 259).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 316).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 343).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 345).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 350).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 351).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 359).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 366).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 370).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 371).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 380).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 385).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 392).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 401).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 406).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 410).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 411).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 414).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 420).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 428).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 431).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 436).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 444).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 459).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 468).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 471).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 475).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 491).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 496).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 504).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 505).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 531).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 543).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 549).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 564).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 571).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 572).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 574).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 600).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 613).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 622).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 640).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 652).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 655).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 673).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 688).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 713).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 726).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 739).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 748).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 764).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 766).
-- **docs: write nextjs and nestjs local development setup instructions**: Updated in development lifecycle (Change ID: 773).
-- **docs: add nestjs backend API controllers routes documentation mapping**: Updated in development lifecycle (Change ID: 780).
-- **docs: document system configuration env variables in example**: Updated in development lifecycle (Change ID: 799).
-- **docs: add prisma migration and schemas initialization guide**: Updated in development lifecycle (Change ID: 804).
+### 3. Configure the Frontend
+Install dependencies at the root directory and run the Next.js client:
+```bash
+npm install
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) to view the client application in your browser.
